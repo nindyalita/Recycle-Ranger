@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16097B792A4FC5590029B4F5 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16097B782A4FC5590029B4F5 /* GuideView.swift */; };
+		1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF792A4FD4EC00320669 /* BinModel.swift */; };
+		1636BF842A500E3600320669 /* Guide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF832A500E3600320669 /* Guide2View.swift */; };
+		1636BF882A50369A00320669 /* CaptureTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF872A50369A00320669 /* CaptureTheWasteView.swift */; };
+		166A68A52A5822F500B80293 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 166A68A42A5822F500B80293 /* .gitignore */; };
+		166C592E2A4DD82D006A6FA3 /* Recycle_RangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */; };
+		166C59302A4DD82D006A6FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C592F2A4DD82D006A6FA3 /* ContentView.swift */; };
+		166C59322A4DD82E006A6FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166C59312A4DD82E006A6FA3 /* Assets.xcassets */; };
+		166C59352A4DD82E006A6FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166C59342A4DD82E006A6FA3 /* Preview Assets.xcassets */; };
+		166C593F2A4DD881006A6FA3 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C593E2A4DD881006A6FA3 /* PlayView.swift */; };
+		166C59412A4DD89F006A6FA3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C59402A4DD89F006A6FA3 /* MenuView.swift */; };
+		166C594D2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59442A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf */; };
+		166C594E2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59452A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf */; };
+		166C594F2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59462A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf */; };
+		166C59502A4DD9C0006A6FA3 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59472A4DD9C0006A6FA3 /* SF-Pro-Rounded-Regular.otf */; };
+		166C59512A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59482A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf */; };
+		166C59522A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C59492A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf */; };
+		166C59532A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C594A2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf */; };
+		166C59542A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C594B2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf */; };
+		166C59552A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 166C594C2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf */; };
+		1699912D2A505D59000EBA52 /* CatchTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1699912C2A505D59000EBA52 /* CatchTheWasteView.swift */; };
+		16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */; };
+		16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */; };
+		16DB58292A518EE40028F6BF /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB58282A518EE40028F6BF /* WinView.swift */; };
+		A1AF79B02A571CD2000EDEE5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16097B782A4FC5590029B4F5 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		1636BF792A4FD4EC00320669 /* BinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinModel.swift; sourceTree = "<group>"; };
+		1636BF832A500E3600320669 /* Guide2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide2View.swift; sourceTree = "<group>"; };
+		1636BF872A50369A00320669 /* CaptureTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTheWasteView.swift; sourceTree = "<group>"; };
+		166A68A42A5822F500B80293 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		166C592A2A4DD82D006A6FA3 /* Recycle Ranger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycle Ranger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycle_RangerApp.swift; sourceTree = "<group>"; };
+		166C592F2A4DD82D006A6FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		166C59312A4DD82E006A6FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166C59342A4DD82E006A6FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		166C593E2A4DD881006A6FA3 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		166C59402A4DD89F006A6FA3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		166C59442A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		166C59452A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
+		166C59462A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Heavy.otf"; sourceTree = "<group>"; };
+		166C59472A4DD9C0006A6FA3 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		166C59482A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		166C59492A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		166C594A2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		166C594B2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		166C594C2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		166C59562A4DDA17006A6FA3 /* Recycle-Ranger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Recycle-Ranger-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1699912C2A505D59000EBA52 /* CatchTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheWasteView.swift; sourceTree = "<group>"; };
+		16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTheWasteView.swift; sourceTree = "<group>"; };
+		16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectWasteViewModel.swift; sourceTree = "<group>"; };
+		16DB58282A518EE40028F6BF /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166C59272A4DD82D006A6FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1636BF712A4FCFC000320669 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		1636BF782A4FD21300320669 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1636BF792A4FD4EC00320669 /* BinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		166C59212A4DD82D006A6FA3 = {
+			isa = PBXGroup;
+			children = (
+				166A68A42A5822F500B80293 /* .gitignore */,
+				166C592C2A4DD82D006A6FA3 /* Recycle Ranger */,
+				166C592B2A4DD82D006A6FA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166C592B2A4DD82D006A6FA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166C592A2A4DD82D006A6FA3 /* Recycle Ranger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166C592C2A4DD82D006A6FA3 /* Recycle Ranger */ = {
+			isa = PBXGroup;
+			children = (
+				16CB96F52A52D9DC00110F57 /* ViewModels */,
+				1636BF782A4FD21300320669 /* Models */,
+				1636BF712A4FCFC000320669 /* View Model */,
+				166C59562A4DDA17006A6FA3 /* Recycle-Ranger-Info.plist */,
+				166C59432A4DD976006A6FA3 /* Font */,
+				166C593D2A4DD864006A6FA3 /* View */,
+				166C59312A4DD82E006A6FA3 /* Assets.xcassets */,
+				166C59332A4DD82E006A6FA3 /* Preview Content */,
+			);
+			path = "Recycle Ranger";
+			sourceTree = "<group>";
+		};
+		166C59332A4DD82E006A6FA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				166C59342A4DD82E006A6FA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		166C593D2A4DD864006A6FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */,
+				166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */,
+				166C593E2A4DD881006A6FA3 /* PlayView.swift */,
+				166C59402A4DD89F006A6FA3 /* MenuView.swift */,
+				1699912C2A505D59000EBA52 /* CatchTheWasteView.swift */,
+				1636BF872A50369A00320669 /* CaptureTheWasteView.swift */,
+				16097B782A4FC5590029B4F5 /* GuideView.swift */,
+				1636BF832A500E3600320669 /* Guide2View.swift */,
+				166C592F2A4DD82D006A6FA3 /* ContentView.swift */,
+				16DB58282A518EE40028F6BF /* WinView.swift */,
+				A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		166C59432A4DD976006A6FA3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				166C594B2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf */,
+				166C59442A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf */,
+				166C59462A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf */,
+				166C59452A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf */,
+				166C59482A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf */,
+				166C59472A4DD9C0006A6FA3 /* SF-Pro-Rounded-Regular.otf */,
+				166C594C2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf */,
+				166C59492A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf */,
+				166C594A2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		16CB96F52A52D9DC00110F57 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166C59292A4DD82D006A6FA3 /* Recycle Ranger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166C59382A4DD82E006A6FA3 /* Build configuration list for PBXNativeTarget "Recycle Ranger" */;
+			buildPhases = (
+				166C59262A4DD82D006A6FA3 /* Sources */,
+				166C59272A4DD82D006A6FA3 /* Frameworks */,
+				166C59282A4DD82D006A6FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recycle Ranger";
+			productName = "Recycle Ranger";
+			productReference = 166C592A2A4DD82D006A6FA3 /* Recycle Ranger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166C59222A4DD82D006A6FA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					166C59292A4DD82D006A6FA3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 166C59252A4DD82D006A6FA3 /* Build configuration list for PBXProject "Recycle Ranger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166C59212A4DD82D006A6FA3;
+			productRefGroup = 166C592B2A4DD82D006A6FA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166C59292A4DD82D006A6FA3 /* Recycle Ranger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166C59282A4DD82D006A6FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166C59532A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				166C594D2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				166C59552A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				166C59542A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf in Resources */,
+				166A68A52A5822F500B80293 /* .gitignore in Resources */,
+				166C59512A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				166C594F2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf in Resources */,
+				166C59522A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf in Resources */,
+				166C594E2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf in Resources */,
+				166C59352A4DD82E006A6FA3 /* Preview Assets.xcassets in Resources */,
+				166C59322A4DD82E006A6FA3 /* Assets.xcassets in Resources */,
+				166C59502A4DD9C0006A6FA3 /* SF-Pro-Rounded-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166C59262A4DD82D006A6FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166C593F2A4DD881006A6FA3 /* PlayView.swift in Sources */,
+				166C59412A4DD89F006A6FA3 /* MenuView.swift in Sources */,
+				166C59302A4DD82D006A6FA3 /* ContentView.swift in Sources */,
+				16097B792A4FC5590029B4F5 /* GuideView.swift in Sources */,
+				166C592E2A4DD82D006A6FA3 /* Recycle_RangerApp.swift in Sources */,
+				A1AF79B02A571CD2000EDEE5 /* TimerView.swift in Sources */,
+				1636BF882A50369A00320669 /* CaptureTheWasteView.swift in Sources */,
+				16DB58292A518EE40028F6BF /* WinView.swift in Sources */,
+				1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */,
+				16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */,
+				1636BF842A500E3600320669 /* Guide2View.swift in Sources */,
+				16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */,
+				1699912D2A505D59000EBA52 /* CatchTheWasteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		166C59362A4DD82E006A6FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		166C59372A4DD82E006A6FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166C59392A4DD82E006A6FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycle Ranger/Preview Content\"";
+				DEVELOPMENT_TEAM = X635BWV565;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recycle-Ranger-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alita.Recycle-Ranger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166C593A2A4DD82E006A6FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycle Ranger/Preview Content\"";
+				DEVELOPMENT_TEAM = X635BWV565;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recycle-Ranger-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alita.Recycle-Ranger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166C59252A4DD82D006A6FA3 /* Build configuration list for PBXProject "Recycle Ranger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166C59362A4DD82E006A6FA3 /* Debug */,
+				166C59372A4DD82E006A6FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166C59382A4DD82E006A6FA3 /* Build configuration list for PBXNativeTarget "Recycle Ranger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166C59392A4DD82E006A6FA3 /* Debug */,
+				166C593A2A4DD82E006A6FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166C59222A4DD82D006A6FA3 /* Project object */;
+}
