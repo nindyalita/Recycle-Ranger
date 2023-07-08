@@ -11,7 +11,7 @@ import SwiftUI
 struct Recycle_RangerApp: App {
     var body: some Scene {
         WindowGroup {
-            CollectTheWasteView()
+           ContentView()
         }
     }
 }

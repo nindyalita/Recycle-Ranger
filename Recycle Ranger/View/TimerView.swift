@@ -2,7 +2,7 @@
 //  TimerView.swift
 //  Recycle Ranger
 //
-//  Created by Wahyu Alfandi on 06/07/23.
+//  Created by NIndya Alita Rosalia on 06/07/23.
 //
 
 import SwiftUI

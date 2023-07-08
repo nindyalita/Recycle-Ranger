@@ -23,30 +23,45 @@ struct WinView: View {
                 .padding(.bottom, 90)
             
             Text("You have successfully sorted the trash correctly.")
-                .font(.custom("SFProRounded-Medium", size: 24))
-                .padding(.top, 20)
+                .font(.custom("SFProRounded-Medium", size: 20))
+                .padding(.top, 2)
                 .multilineTextAlignment(.center)
             
-            
+            HStack(alignment: .center){
                 NavigationLink(destination: PlayView()) {
-                    Image("homebutton")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 140, height: 70)
-                        .padding(.top, 200)
-                        .padding(.trailing, 150)
-
+                    VStack(spacing: 2){
+                        Image("backbutton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 60, height: 70)
+                        
+                        Text("Exit").font(.system(size: 16, weight: .semibold, design: .rounded))
+                            .foregroundColor(Color("purple2"))
+                    }
+                    .padding(.top, 200)
                 }
-                
+                .padding(.trailing, 52)
                 NavigationLink(destination: CollectTheWasteView()) {
-                    Image("restartbutton")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 140, height: 70)
-                        .padding(.top, 200)
-                        .padding(.leading, 150)
+                    VStack(spacing: 2){
+                        Image("restartbutton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 60, height: 70)
+                        
+                        Text("Restart").font(.system(size: 16, weight: .semibold, design: .rounded))
+                            .foregroundColor(Color("blue2"))
+                    }
+                    .padding(.top, 200)
+                    
 
                 }
+            }
+            .frame(maxWidth: .infinity)
+            
+            
+                
+                
+                
 
             
         }
@@ -55,6 +70,7 @@ struct WinView: View {
             .resizable()
             .scaledToFill()
             .edgesIgnoringSafeArea(.all))
+        .navigationBarBackButtonHidden(true)
     }
 }
 

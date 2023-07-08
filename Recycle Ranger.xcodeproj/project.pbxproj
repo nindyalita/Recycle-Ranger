@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		16097B792A4FC5590029B4F5 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16097B782A4FC5590029B4F5 /* GuideView.swift */; };
+		162586F72A598ED800673989 /* WasteClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 162586F62A598ED800673989 /* WasteClassifier.mlmodel */; };
 		1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF792A4FD4EC00320669 /* BinModel.swift */; };
 		1636BF842A500E3600320669 /* Guide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF832A500E3600320669 /* Guide2View.swift */; };
 		1636BF882A50369A00320669 /* CaptureTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF872A50369A00320669 /* CaptureTheWasteView.swift */; };
+		165F6FF02A5994D400F1750E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F6FEF2A5994D400F1750E /* Camera.swift */; };
 		166A68A52A5822F500B80293 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 166A68A42A5822F500B80293 /* .gitignore */; };
 		166C592E2A4DD82D006A6FA3 /* Recycle_RangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */; };
 		166C59302A4DD82D006A6FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C592F2A4DD82D006A6FA3 /* ContentView.swift */; };
@@ -31,14 +33,24 @@
 		16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */; };
 		16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */; };
 		16DB58292A518EE40028F6BF /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB58282A518EE40028F6BF /* WinView.swift */; };
+		A12C93122A58463C00F91456 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C930F2A58463C00F91456 /* correct.mp3 */; };
+		A12C93132A58463C00F91456 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93102A58463C00F91456 /* gameover.mp3 */; };
+		A12C93142A58463C00F91456 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93112A58463C00F91456 /* wrong.mp3 */; };
+		A12C93162A58469300F91456 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C93152A58469300F91456 /* SoundManager.swift */; };
+		A12C93182A5848A900F91456 /* playBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93172A5848A900F91456 /* playBGM.mp3 */; };
+		A12C931A2A5849C800F91456 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93192A5849C800F91456 /* win.mp3 */; };
+		A12C931C2A584AC800F91456 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C931B2A584AC800F91456 /* intro.mp3 */; };
 		A1AF79B02A571CD2000EDEE5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */; };
+		A1AF79B22A582BA8000EDEE5 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AF79B12A582BA8000EDEE5 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16097B782A4FC5590029B4F5 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		162586F62A598ED800673989 /* WasteClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WasteClassifier.mlmodel; sourceTree = "<group>"; };
 		1636BF792A4FD4EC00320669 /* BinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinModel.swift; sourceTree = "<group>"; };
 		1636BF832A500E3600320669 /* Guide2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide2View.swift; sourceTree = "<group>"; };
 		1636BF872A50369A00320669 /* CaptureTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTheWasteView.swift; sourceTree = "<group>"; };
+		165F6FEF2A5994D400F1750E /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		166A68A42A5822F500B80293 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		166C592A2A4DD82D006A6FA3 /* Recycle Ranger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycle Ranger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycle_RangerApp.swift; sourceTree = "<group>"; };
@@ -61,7 +73,15 @@
 		16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTheWasteView.swift; sourceTree = "<group>"; };
 		16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectWasteViewModel.swift; sourceTree = "<group>"; };
 		16DB58282A518EE40028F6BF /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		A12C930F2A58463C00F91456 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		A12C93102A58463C00F91456 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		A12C93112A58463C00F91456 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		A12C93152A58469300F91456 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		A12C93172A5848A900F91456 /* playBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = playBGM.mp3; sourceTree = "<group>"; };
+		A12C93192A5849C800F91456 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		A12C931B2A584AC800F91456 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
 		A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A1AF79B12A582BA8000EDEE5 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +95,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1636BF712A4FCFC000320669 /* View Model */ = {
+		162586F52A598E8800673989 /* CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				162586F62A598ED800673989 /* WasteClassifier.mlmodel */,
 			);
-			path = "View Model";
+			path = CoreML;
 			sourceTree = "<group>";
 		};
 		1636BF782A4FD21300320669 /* Models */ = {
@@ -110,13 +131,13 @@
 		166C592C2A4DD82D006A6FA3 /* Recycle Ranger */ = {
 			isa = PBXGroup;
 			children = (
+				162586F52A598E8800673989 /* CoreML */,
+				166C59562A4DDA17006A6FA3 /* Recycle-Ranger-Info.plist */,
+				A12C930D2A58461800F91456 /* Resources */,
 				16CB96F52A52D9DC00110F57 /* ViewModels */,
 				1636BF782A4FD21300320669 /* Models */,
-				1636BF712A4FCFC000320669 /* View Model */,
-				166C59562A4DDA17006A6FA3 /* Recycle-Ranger-Info.plist */,
 				166C59432A4DD976006A6FA3 /* Font */,
 				166C593D2A4DD864006A6FA3 /* View */,
-				166C59312A4DD82E006A6FA3 /* Assets.xcassets */,
 				166C59332A4DD82E006A6FA3 /* Preview Content */,
 			);
 			path = "Recycle Ranger";
@@ -144,6 +165,8 @@
 				166C592F2A4DD82D006A6FA3 /* ContentView.swift */,
 				16DB58282A518EE40028F6BF /* WinView.swift */,
 				A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */,
+				A1AF79B12A582BA8000EDEE5 /* GameOverView.swift */,
+				165F6FEF2A5994D400F1750E /* Camera.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,8 +191,31 @@
 			isa = PBXGroup;
 			children = (
 				16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */,
+				A12C93152A58469300F91456 /* SoundManager.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A12C930D2A58461800F91456 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A12C930E2A58463200F91456 /* Sounds */,
+				166C59312A4DD82E006A6FA3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A12C930E2A58463200F91456 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A12C930F2A58463C00F91456 /* correct.mp3 */,
+				A12C93192A5849C800F91456 /* win.mp3 */,
+				A12C93102A58463C00F91456 /* gameover.mp3 */,
+				A12C931B2A584AC800F91456 /* intro.mp3 */,
+				A12C93172A5848A900F91456 /* playBGM.mp3 */,
+				A12C93112A58463C00F91456 /* wrong.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +277,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				166C59532A4DD9C0006A6FA3 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				A12C93142A58463C00F91456 /* wrong.mp3 in Resources */,
+				A12C931A2A5849C800F91456 /* win.mp3 in Resources */,
 				166C594D2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				166C59552A4DD9C0006A6FA3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				166C59542A4DD9C0006A6FA3 /* SF-Pro-Rounded-Black.otf in Resources */,
+				A12C93182A5848A900F91456 /* playBGM.mp3 in Resources */,
 				166A68A52A5822F500B80293 /* .gitignore in Resources */,
+				A12C931C2A584AC800F91456 /* intro.mp3 in Resources */,
 				166C59512A4DD9C0006A6FA3 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				A12C93132A58463C00F91456 /* gameover.mp3 in Resources */,
+				A12C93122A58463C00F91456 /* correct.mp3 in Resources */,
 				166C594F2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Heavy.otf in Resources */,
 				166C59522A4DD9C0006A6FA3 /* SF-Pro-Rounded-Thin.otf in Resources */,
 				166C594E2A4DD9C0006A6FA3 /* SF-Pro-Rounded-Light.otf in Resources */,
@@ -252,19 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1AF79B22A582BA8000EDEE5 /* GameOverView.swift in Sources */,
 				166C593F2A4DD881006A6FA3 /* PlayView.swift in Sources */,
+				165F6FF02A5994D400F1750E /* Camera.swift in Sources */,
 				166C59412A4DD89F006A6FA3 /* MenuView.swift in Sources */,
 				166C59302A4DD82D006A6FA3 /* ContentView.swift in Sources */,
 				16097B792A4FC5590029B4F5 /* GuideView.swift in Sources */,
 				166C592E2A4DD82D006A6FA3 /* Recycle_RangerApp.swift in Sources */,
 				A1AF79B02A571CD2000EDEE5 /* TimerView.swift in Sources */,
 				1636BF882A50369A00320669 /* CaptureTheWasteView.swift in Sources */,
+				162586F72A598ED800673989 /* WasteClassifier.mlmodel in Sources */,
 				16DB58292A518EE40028F6BF /* WinView.swift in Sources */,
 				1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */,
 				16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */,
 				1636BF842A500E3600320669 /* Guide2View.swift in Sources */,
 				16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */,
 				1699912D2A505D59000EBA52 /* CatchTheWasteView.swift in Sources */,
+				A12C93162A58469300F91456 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +453,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Recycle-Ranger-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access needed for camera predictions!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,6 +484,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Recycle-Ranger-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access needed for camera predictions!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var soundManager = SoundManager()
     
     var body: some View {
-        CollectTheWasteView()
+        PlayView()
+            .environmentObject(soundManager)
+            
     }
 }

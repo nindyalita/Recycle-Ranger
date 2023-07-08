@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuView: View {
     
     var body: some View {
-        NavigationView{
+        
             ZStack{
                 Rectangle()
                     .fill(Color.white)
@@ -103,7 +103,7 @@ struct MenuView: View {
             )
             
             
-        }
+            
     }
 }
 
