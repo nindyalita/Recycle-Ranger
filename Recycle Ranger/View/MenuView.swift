@@ -45,6 +45,8 @@ struct MenuView: View {
                                     .frame(width: 120, height: 120)
                                 NavigationLink(destination: CatchTheWasteView()) {
                                     Image("catch")
+                                        .resizable()
+                                        .frame(width: 100, height: 100)
                                 }
                                 
                             }
@@ -65,6 +67,8 @@ struct MenuView: View {
                                     .frame(width: 120, height: 120)
                                 NavigationLink(destination: CollectTheWasteView()) {
                                     Image("collect")
+                                        .resizable()
+                                        .frame(width: 100, height: 100)
                                 }
                             }
                             

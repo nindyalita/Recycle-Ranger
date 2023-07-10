@@ -24,26 +24,41 @@ struct GuideView: View {
                 Text(bins[currentIndex].description)
                     .font(.custom("SFProRounded-Medium", size: 15))
                     .multilineTextAlignment(.center)
-                HStack{
+                HStack (alignment: .center) {
+                    Button {
+                        withAnimation (.spring(response: 0.6, dampingFraction: 0.8)){
+                            currentIndex -= 1
+                            if currentIndex < 0 {
+                                currentIndex = bins.count - 1
+                            }
+                            print(currentIndex)
+                        }
+                    } label: {
+                        Image("nextbutton")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 80, height: 80)
+                            .rotationEffect(.degrees(180))
+                        
+                    }
+                    .padding(.top, 60)
                     
-                    Spacer()
+                    
                     
                     Image(bins[currentIndex].imageName)
                         .frame(width: 200, height: 200)
-                        .padding(.leading, 130.0)
+                        .padding(.horizontal, 86)
                     
-                    Spacer()
                     
+
                     Button {
-//                        withAnimation (.spring(response: 0.6, dampingFraction: 0.8)){
-//                            currentIndex += 1
-//                            if currentIndex >= bins.count {
-//                                currentIndex = 0
-//                            }
-//                        }
-                        
-                        
-                        
+                        withAnimation (.spring(response: 0.6, dampingFraction: 0.8)){
+                            currentIndex += 1
+                            if currentIndex >= bins.count {
+                                currentIndex = 0
+                            }
+                            print(currentIndex)
+                        }
                     } label: {
                         Image("nextbutton")
                             .resizable()
@@ -51,8 +66,7 @@ struct GuideView: View {
                             .frame(width: 80, height: 80)
                         
                     }
-                    .padding(.top, 100)
-                    .padding(.trailing, 20)
+                    .padding(.top, 60)
                 }
                 
             }

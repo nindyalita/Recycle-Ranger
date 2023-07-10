@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CollectTheWasteView: View {
     @EnvironmentObject var soundManager: SoundManager
+    @Environment(\.presentationMode) var presentationMode
     
     let images = ["book", "bottle", "bottleglass", "box", "glass", "keju",  "newspaper",  "orangefruit", "plastic",  "plasticglass"]
     
@@ -36,53 +37,78 @@ struct CollectTheWasteView: View {
     
     var body: some View {
         
-        ZStack {
-            ForEach(collectBins, id: \.id){ bin in
-                Image(bin.imageName)
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(.blue)
-                    .position(x: bin.position.x, y: bin.position.y)
-            }
-            
-            
-            ForEach(0..<numberOfImages, id: \.self) { index in
-                if objectPositions[index].imageName != "" {
-                    randomImage(index: index)
+        ZStack (alignment: .topLeading){
+            VStack{
+                ForEach(collectBins, id: \.id){ bin in
+                    Image(bin.imageName)
                         .frame(width: 100, height: 100)
-                        .position(objectPositions[index].position)
-                        .opacity(objectPositions[index].opacity)
-                        .gesture(
-                            DragGesture()
-                                .onChanged { value in
-                                    activeIndex = index
-                                    objectPositions[index].position = value.location
-                                }
-                                .onEnded { _ in
-                                    activeIndex = nil
-                                    checkCollision(index: index)
-                                    checkWinCondition()
-                                }
-                        )
+                        .foregroundColor(.blue)
+                        .position(x: bin.position.x, y: bin.position.y)
+                }
+                
+                ForEach(0..<numberOfImages, id: \.self) { index in
+                    if objectPositions[index].imageName != "" {
+                        randomImage(index: index)
+                            .frame(width: 100, height: 100)
+                            .position(objectPositions[index].position)
+                            .opacity(objectPositions[index].opacity)
+                            .gesture(
+                                DragGesture()
+                                    .onChanged { value in
+                                        activeIndex = index
+                                        objectPositions[index].position = value.location
+                                    }
+                                    .onEnded { _ in
+                                        activeIndex = nil
+                                        checkCollision(index: index)
+                                        checkWinCondition()
+                                    }
+                            )
+                    }
+                }
+                
+                // Menggunakan NavigationLink untuk navigasi ke halaman WinView
+                NavigationLink(destination: WinView(), isActive: $isGameWon) {
+                    EmptyView()
+                }
+                
+                NavigationLink(destination: GameOverView(), isActive: $isGameLost) {
+                    EmptyView()
                 }
             }
             
+            HStack (spacing: 0){
+                Button{
+                    presentationMode.wrappedValue.dismiss()
+                } label: {
+                    Image("backbutton")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60, height: 60)
+                }
+                .padding(.trailing, 14)
+                
+                Button{
+                    presentationMode.wrappedValue.dismiss()
+                } label: {
+                    Image("questionbutton")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60, height: 60)
+                }
+                .padding(.trailing, 14)
+                
+                Button{
+                    presentationMode.wrappedValue.dismiss()
+                } label: {
+                    Image("restartbutton")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60, height: 60)
+                }
+            }.ignoresSafeArea()
+                
             
-            
-            
-//            ForEach(collectBins, id: \.id){ bin in
-//                Rectangle().fill(.black.opacity(0.3))
-//                    .frame(width: 100, height: 110)
-//                    .position(x: bin.position.x, y: bin.position.y)
-//            }
-            
-            // Menggunakan NavigationLink untuk navigasi ke halaman WinView
-            NavigationLink(destination: WinView(), isActive: $isGameWon) {
-                EmptyView()
-            }
-            
-            NavigationLink(destination: GameOverView(), isActive: $isGameLost) {
-                EmptyView()
-            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
@@ -108,7 +134,7 @@ struct CollectTheWasteView: View {
         }
         .onAppear{
             soundManager.stopBackgroundMusic()
-            soundManager.playBackgroundMusic(soundName: "playBGM", type: "mp3")
+//            soundManager.playBackgroundMusic(soundName: "playBGM", type: "mp3")
             isTimerRunning.toggle()
             if isTimerRunning {
                 timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()

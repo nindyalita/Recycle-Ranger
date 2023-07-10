@@ -12,6 +12,7 @@
 		1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF792A4FD4EC00320669 /* BinModel.swift */; };
 		1636BF842A500E3600320669 /* Guide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF832A500E3600320669 /* Guide2View.swift */; };
 		1636BF882A50369A00320669 /* CaptureTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636BF872A50369A00320669 /* CaptureTheWasteView.swift */; };
+		1658ABD52A5C3D9300FC433C /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658ABD42A5C3D9300FC433C /* Camera.swift */; };
 		165F6FF02A5994D400F1750E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F6FEF2A5994D400F1750E /* Camera.swift */; };
 		166A68A52A5822F500B80293 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 166A68A42A5822F500B80293 /* .gitignore */; };
 		166C592E2A4DD82D006A6FA3 /* Recycle_RangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C592D2A4DD82D006A6FA3 /* Recycle_RangerApp.swift */; };
@@ -33,6 +34,7 @@
 		16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */; };
 		16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */; };
 		16DB58292A518EE40028F6BF /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB58282A518EE40028F6BF /* WinView.swift */; };
+		16F262D62A5B0A920095F320 /* Menu2view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F262D52A5B0A920095F320 /* Menu2view.swift */; };
 		A12C93122A58463C00F91456 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C930F2A58463C00F91456 /* correct.mp3 */; };
 		A12C93132A58463C00F91456 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93102A58463C00F91456 /* gameover.mp3 */; };
 		A12C93142A58463C00F91456 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12C93112A58463C00F91456 /* wrong.mp3 */; };
@@ -50,6 +52,7 @@
 		1636BF792A4FD4EC00320669 /* BinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinModel.swift; sourceTree = "<group>"; };
 		1636BF832A500E3600320669 /* Guide2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide2View.swift; sourceTree = "<group>"; };
 		1636BF872A50369A00320669 /* CaptureTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTheWasteView.swift; sourceTree = "<group>"; };
+		1658ABD42A5C3D9300FC433C /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		165F6FEF2A5994D400F1750E /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		166A68A42A5822F500B80293 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		166C592A2A4DD82D006A6FA3 /* Recycle Ranger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycle Ranger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,7 @@
 		16B537BB2A51775600DF7F14 /* CollectTheWasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTheWasteView.swift; sourceTree = "<group>"; };
 		16CB96F62A52DA0700110F57 /* CollectWasteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectWasteViewModel.swift; sourceTree = "<group>"; };
 		16DB58282A518EE40028F6BF /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		16F262D52A5B0A920095F320 /* Menu2view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2view.swift; sourceTree = "<group>"; };
 		A12C930F2A58463C00F91456 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		A12C93102A58463C00F91456 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
 		A12C93112A58463C00F91456 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
@@ -95,12 +99,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		162586F52A598E8800673989 /* CoreML */ = {
+		162586F52A598E8800673989 /* MLModel */ = {
 			isa = PBXGroup;
 			children = (
 				162586F62A598ED800673989 /* WasteClassifier.mlmodel */,
 			);
-			path = CoreML;
+			path = MLModel;
 			sourceTree = "<group>";
 		};
 		1636BF782A4FD21300320669 /* Models */ = {
@@ -109,6 +113,14 @@
 				1636BF792A4FD4EC00320669 /* BinModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1658ABD32A5C3D8200FC433C /* WithUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1658ABD42A5C3D9300FC433C /* Camera.swift */,
+			);
+			path = WithUIKit;
 			sourceTree = "<group>";
 		};
 		166C59212A4DD82D006A6FA3 = {
@@ -131,7 +143,8 @@
 		166C592C2A4DD82D006A6FA3 /* Recycle Ranger */ = {
 			isa = PBXGroup;
 			children = (
-				162586F52A598E8800673989 /* CoreML */,
+				1658ABD32A5C3D8200FC433C /* WithUIKit */,
+				162586F52A598E8800673989 /* MLModel */,
 				166C59562A4DDA17006A6FA3 /* Recycle-Ranger-Info.plist */,
 				A12C930D2A58461800F91456 /* Resources */,
 				16CB96F52A52D9DC00110F57 /* ViewModels */,
@@ -167,6 +180,7 @@
 				A1AF79AF2A571CD2000EDEE5 /* TimerView.swift */,
 				A1AF79B12A582BA8000EDEE5 /* GameOverView.swift */,
 				165F6FEF2A5994D400F1750E /* Camera.swift */,
+				16F262D52A5B0A920095F320 /* Menu2view.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,8 +330,10 @@
 				162586F72A598ED800673989 /* WasteClassifier.mlmodel in Sources */,
 				16DB58292A518EE40028F6BF /* WinView.swift in Sources */,
 				1636BF7A2A4FD4EC00320669 /* BinModel.swift in Sources */,
+				1658ABD52A5C3D9300FC433C /* Camera.swift in Sources */,
 				16CB96F72A52DA0700110F57 /* CollectWasteViewModel.swift in Sources */,
 				1636BF842A500E3600320669 /* Guide2View.swift in Sources */,
+				16F262D62A5B0A920095F320 /* Menu2view.swift in Sources */,
 				16B537BC2A51775600DF7F14 /* CollectTheWasteView.swift in Sources */,
 				1699912D2A505D59000EBA52 /* CatchTheWasteView.swift in Sources */,
 				A12C93162A58469300F91456 /* SoundManager.swift in Sources */,
